@@ -1,9 +1,7 @@
 #import "libfcm.h"
 
 NSString *ghost() {
-    NSString *hostName = [[NSProcessInfo processInfo] hostName];
-    
-    return hostName;
+    return [[NSProcessInfo processInfo] hostName];
 }
 
 
