@@ -36,8 +36,8 @@ NSString *gcpu() {
     NSString *iphoneFamily = [machine substringToIndex:[machine length] - 2];
     
     NSDictionary *cpuNames = @{
-        @"iPhone1": @"Apple A1",
-        @"iPhone2": @"Apple A2",
+        @"iPhone1": @"APL0098",
+        @"iPhone2": @"APL0098",
         @"iPhone3": @"Apple A4",
         @"iPhone4": @"Apple A5",
         @"iPhone5": @"Apple A6",
@@ -63,14 +63,14 @@ NSString *garch() {
     NSString *iphoneFamily = [machine substringToIndex:[machine length] - 2];
     
     NSDictionary *cpuNames = @{
-        @"iPhone1": @"armhf",
-        @"iPhone2": @"armhf",
-        @"iPhone3": @"armhf",
-        @"iPhone4": @"armhf",
-        @"iPhone5": @"armhf",
-        @"iPhone6": @"arm64",
-        @"iPhone7": @"arm64",
-        @"iPhone8": @"arm64",
+        @"iPhone1": @"armv6",
+        @"iPhone2": @"armv6",
+        @"iPhone3": @"armv7",
+        @"iPhone4": @"armv7",
+        @"iPhone5": @"armv7",
+        @"iPhone6": @"armv8",
+        @"iPhone7": @"armv8",
+        @"iPhone8": @"armv8",
         @"iPhone9": @"arm64",
         @"iPhone10": @"arm64",
         @"iPhone11": @"arm64e",
